@@ -2,4 +2,4 @@ DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,e-hentaidb.com
 DOMAIN-SUFFIX,ehgt.org
 DOMAIN-KEYWORD,hath.network
-IP-CIDR,178.162.140.213
+IP-CIDR,178.162.0.0/16,no-resolve
