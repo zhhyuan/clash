@@ -2,13 +2,15 @@ name: dns
 dns:
   enable: true
   listen: 0.0.0.0:53
+  enhanced-mode: redir-host
   default-nameserver:
    - 119.29.29.29
    - 223.5.5.5
 nameserver:
 - https://doh.pub/dns-query
 - https://dns.alidns.com/dns-query
-- tls://b.iqiq.io:853
+- quic://x.passcloud.xyz:784 
+- quic://b.iqiq.io:784 
 fallback:
 - https://1.1.1.1/dns-query
 - https://dns.google/dns-query
