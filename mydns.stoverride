@@ -10,13 +10,12 @@ dns:
 nameserver:
 - https://doh.pub/dns-query
 - https://dns.alidns.com/dns-query
-- quic://x.passcloud.xyz:784 
-- quic://b.iqiq.io:784 
+- https://b.vvvglass.com/iq
 fallback:
 - https://1.1.1.1/dns-query
 - https://dns.google/dns-query
 - 8.8.8.8
-- https://a.passcloud.xyz/cdn
+- https://b.vvvglass.com/iq
 fallback-filter:
 geoip: true
 geoip-code: CN
