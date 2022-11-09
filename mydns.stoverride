@@ -8,8 +8,9 @@ dns:
    - 119.29.29.29
    - 223.5.5.5
 nameserver:
-- 119.29.29.29
-- 223.5.5.5
+- https://b.vvvglass.com/iq
+- https://doh.pub/dns-query
+- https://dns.twnic.tw/dns-query
 fallback:
 - https://1.1.1.1/dns-query
 - https://dns.google/dns-query
